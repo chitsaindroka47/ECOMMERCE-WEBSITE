@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import ViewToggle from "../components/ViewToggle";
 import ProductCard from "../components/ProductCard";
-import CheckoutButton from "../components/CheckoutButton";
+
 import fetchPixabay from "../utils/fetchPixabay";
 import "../index.css";
 
