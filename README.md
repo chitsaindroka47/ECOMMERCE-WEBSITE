@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce Store (React)
 
-### 🔗 Deployed Prototype: [https://assignment-2-psi-jet.vercel.app](https://assignment-2-psi-jet.vercel.app)
+### 🔗 Deployed Prototype: [[(https://assignment-2-psi-jet.vercel.app](https://rapidstore-b4hfgldy6-chitsaindroka47s-projects.vercel.app/))]]
 
 This is a fully functional E-commerce web application built using **React**. It allows users to browse products, filter by categories, search for items, and manage a cart — all with a smooth, user-friendly UI inspired by modern shopping platforms like Amazon.
 
