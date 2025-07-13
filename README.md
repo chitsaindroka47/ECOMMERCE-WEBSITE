@@ -1,62 +1,113 @@
--**Deployed Prototype**
- https://assignment-2-psi-jet.vercel.app/
- 
--**React To-Do List App**
-Hey there! This is a simple and colorful To-Do List app built with React. It helps you keep track of your tasks easily with a nice gradient background to brighten up your day.
+# 🛍️ E-Commerce Store (React)
 
--**What it does**
+### 🔗 Deployed Prototype: [https://assignment-2-psi-jet.vercel.app](https://assignment-2-psi-jet.vercel.app)
 
-* Add tasks quickly — no empty tasks allowed!
-* Mark tasks as done or undo them with a click.
-* Delete tasks you’ve finished or don’t want anymore.
-* Filter your list to see all tasks, just the active ones, or only the completed ones.
-* Sort tasks alphabetically whenever you want.
-* Your tasks are saved right in your browser, so they’ll still be there even if you refresh or close the page.
-* Looks good too, thanks to a smooth colorful gradient background!
+This is a fully functional E-commerce web application built using **React**. It allows users to browse products, filter by categories, search for items, and manage a cart — all with a smooth, user-friendly UI inspired by modern shopping platforms like Amazon.
 
--**How to get it running**
+---
 
-1. Clone the repo to your computer:
-   `git clone https://github.com/yourusername/your-repo.git`
+## 💡 Features
 
-2. Go inside the folder:
-   `cd your-repo`
+- Browse a wide range of products
+- Add items to the cart with one click
+- Navigate to cart page to review selections
+- Filter products by category
+- Search bar with category selector (Amazon-style)
+- Beautiful hero section with promotional banner
+- Sticky sidebar for easy filtering
+- Responsive product cards and suggestion sections
+- Clean and sticky navigation bar with:
+  - Search bar
+  - Cart icon with item badge
+  - Login/Signup options
+  - Language selector
+- Persistent layout with a polished footer
 
-3. Install all the needed packages:
-   `npm install`
+---
 
-4. Start the app locally:
-   `npm start`
+## 🚀 How to Get Started Locally
 
-Now open [http://localhost:3000](http://localhost:3000) in your browser to see your To-Do List!
+1. **Clone the Repository:**
 
--**How to use it**
+```bash
+git clone https://github.com/yourusername/your-repo.git
+````
 
-* Type in your task and hit the **Add** button.
-* Click **Complete** next to a task to mark it done or undo it if you change your mind.
-* Click **Delete** to remove tasks you no longer want to see.
-* Use the filter buttons (All, Active, Completed) to organize your view.
-* Want to sort tasks? Just hit the **Sort** button!
-* Close your browser or refresh — your list will stay safe thanks to localStorage.
+2. **Navigate to Project Directory:**
 
--**What’s inside?**
+```bash
+cd your-repo
+```
 
-* React components that make it all happen.
-* CSS with a beautiful gradient background.
-* localStorage to keep your tasks saved.
+3. **Install Dependencies:**
 
--**Tech stack**
+```bash
+npm install
+```
+
+4. **Start the Development Server:**
+
+```bash
+npm start
+```
+
+Now open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action!
+
+---
+
+## 🧑‍💻 How to Use
+
+* Use the **category sidebar** to filter products by type
+* Use the **search bar** to find items easily
+* Click **Add to Cart** to put products into your cart
+* Go to the **Cart Page** to review and proceed to checkout
+* Explore **suggested products** in the suggestion section
+* Scroll to the **footer** for navigation, links, and social icons
+
+---
+
+## 🧰 Tech Stack
 
 * React
-* JavaScript
-* CSS (with gradient magic)
-* Browser localStorage
+* JavaScript (ES6+)
+* CSS (custom with gradients)
+* React Router
+* Redux Toolkit (for cart state management)
+* HTML5
+* Vercel (for deployment)
 
--**About me**
+---
 
-I’m Chitranjan Singh. Feel free to check out more projects on my [GitHub profile](https://github.comchitsaindroka47)!
+## 📁 Folder Structure Highlights
 
--**Screenshots**
-![{5172F391-BCAE-4E20-8611-6664E919E634}](https://github.com/user-attachments/assets/11507fe6-8680-4ed2-ab8d-2b3e4d1f9571)
+* `/components`: Reusable UI components like Navbar, Sidebar, HeroSection, ProductCard, etc.
+* `/pages`: Page components like Home, Cart, etc.
+* `/redux`: Redux store and slices
+* `/assets`: Product images, icons, etc.
+* `/App.jsx`: Main app routing and layout logic
+* `/index.css`: Global styles
+
+---
+
+## 📸 Screenshots
+
+> *(Insert screenshots here using Markdown when ready)*
+
+<img width="1904" height="874" alt="{7CAB5799-180A-42BE-A394-13EE2892DB29}" src="https://github.com/user-attachments/assets/97f6cdb8-abc8-4747-9bf7-a8e0c23f9fb4" />
+<img width="1900" height="871" alt="{E8AFE998-9217-4E63-941A-737B2F7329EB}" src="https://github.com/user-attachments/assets/5ff3f6f8-8fda-4273-acab-94bd5ce452bd" />
+<img width="1920" height="860" alt="{F3FE6D90-BEB8-48C8-93E2-6DEC64ED004C}" src="https://github.com/user-attachments/assets/44db8cbd-80b7-4d9a-b489-a27007ac520e" />
+<img width="1920" height="867" alt="{06132C52-FB3E-4CFC-892E-F1D1F0C0C400}" src="https://github.com/user-attachments/assets/39dc16d1-d265-4026-a4f9-246ac530d7c2" />
 
 
+---
+
+## 👨‍💻 About Me
+
+I'm **Chitranjan Singh**, passionate about building intuitive user experiences and scalable web apps.
+Feel free to check out more projects on my [GitHub profile](https://github.com/chitsaindroka47)!
+
+---
+
+## 🌟 Show Some Love
+
+If you liked this project, consider giving it a ⭐️ on GitHub!!
